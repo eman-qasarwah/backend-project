@@ -1,0 +1,28 @@
+{
+  "name": "backend-ex",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Eman Qasarwah",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.5",
+    "morgan": "^1.12.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0"
+  }
+}
